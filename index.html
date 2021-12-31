@@ -4,16 +4,57 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Is Your Birthdate Is Lucky ?</title>
+    <style>
+        h1{
+            padding: 1rem;
+        }
+
+        #container{
+            display:block;
+            max-width: 450px;
+            margin: auto;
+            background-color: chocolate;
+            text-align: center;
+            
+             
+        }
+        #birthdate{
+            margin:2rem 2rem;
+            border-color:black;
+        
+        }
+        #btn{
+            padding: 0.7rem;
+            border-radius: 0.5rem;
+            border-color:black;
+
+
+        
+        }
+        #lucky-number{
+            border-color:black;
+
+
+        }
+        #output{
+            width: 90%;
+            height:30vh
+         
+        }
+    </style>
+    <title> Is Your Birthdate Is Lucky ? grin:</title>
 </head>
 <body>
-    <h1> Is your Birthdate is lucky ?</h1>
+    <div id="container">
+    <h1> Is your Birthdate is lucky ?😍 </h1>
     <label for="birthdate">Enter your Birthdate</label>
-    <input type="date" id="birthdate">
-    <label for="lucky-number">Enter Your Lucky Number</label>
-    <input type="number"  id="lucky-number">
-    <button id="btn">Check Luck</button>
+    <input type="date" id="birthdate"><br>
+    <label for="lucky-number">Enter  Lucky Number</label>
+    <input type="number" id="lucky-number"><br><br><br>
+    <button id="btn">Check Luck</button><br>
     <div id="output"></div>
+</div>
+    
 
     <script src="app.js"></script>
 </body>
